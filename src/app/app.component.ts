@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'portfolio';
 
-  public welcome = 'Thanks for clicking the button! And Yvi is great.';
+  public welcome = 'Thanks for clicking the button! But it doesn\'t do anything.';
   public show = false;
 
   public showWelcomeMessage() {
