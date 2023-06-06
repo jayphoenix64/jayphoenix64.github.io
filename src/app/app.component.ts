@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'portfolio';
 
+  //test
+
   public welcome = 'Thanks for clicking the button! But it doesn\'t do anything.';
   public show = false;
 
