@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
+import { MaintenanceComponent } from './maintenance/maintenance.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, MaintenanceComponent],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatIconModule],
   providers: [],
   bootstrap: [AppComponent],
