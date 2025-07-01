@@ -52,7 +52,9 @@ Just run
 npx nx build --configuration production --output-path docs --base-href "/"
 ```
 
-to build the application. The build artifacts will be stored in the `dist/` directory, ready to be deployed.
+to build the application. The build artifacts will be stored in the `docs/` directory, ready to be deployed.
+
+After that copy the `index.html` file in the `docs/` folder and rename the copy to `404.html` to enable routing on Github Pages.
 
 ## Set up CI!
 

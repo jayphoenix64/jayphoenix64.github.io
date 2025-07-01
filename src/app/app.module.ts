@@ -16,7 +16,7 @@ import { MaintenanceComponent } from './maintenance/maintenance.component';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes, { useHash: true }),
+    RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
   ],
   providers: [],
   bootstrap: [AppComponent],
